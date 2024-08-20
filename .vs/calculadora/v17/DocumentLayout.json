@@ -1,12 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dell\\Documents\\calculadora-vbdotnet\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9162FE5E-B84E-4B4E-952E-888FC81F4D9A}|calculadora\\calculadora.vbproj|e:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9162FE5E-B84E-4B4E-952E-888FC81F4D9A}|calculadora\\calculadora.vbproj|solutionrelative:calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9162FE5E-B84E-4B4E-952E-888FC81F4D9A}|calculadora\\calculadora.vbproj|e:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9162FE5E-B84E-4B4E-952E-888FC81F4D9A}|calculadora\\calculadora.vbproj|solutionrelative:calculadora\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\Form1.vb",
+              "RelativeDocumentMoniker": "calculadora\\Form1.vb",
+              "ToolTip": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\Form1.vb",
+              "RelativeToolTip": "calculadora\\Form1.vb",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-25T21:48:02.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Projeto]",
+              "DocumentMoniker": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\Form1.vb",
+              "RelativeDocumentMoniker": "calculadora\\Form1.vb",
+              "ToolTip": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\Form1.vb [Projeto]",
+              "RelativeToolTip": "calculadora\\Form1.vb [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-25T21:46:32.032Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

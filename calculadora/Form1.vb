@@ -6,87 +6,87 @@
         Me.KeyPreview = True
     End Sub
 
-    Private Sub tbn1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn1.Click
+    Private Sub Tbn1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn1.Click
         txtDisplay.Text &= "1"
     End Sub
 
-    Private Sub tbn2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn2.Click
+    Private Sub Tbn2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn2.Click
         txtDisplay.Text &= "2"
     End Sub
 
-    Private Sub tbn3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn3.Click
+    Private Sub Tbn3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn3.Click
         txtDisplay.Text &= "3"
     End Sub
 
-    Private Sub tbn4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn4.Click
+    Private Sub Tbn4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn4.Click
         txtDisplay.Text &= "4"
     End Sub
 
-    Private Sub tbn5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn5.Click
+    Private Sub Tn5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn5.Click
         txtDisplay.Text &= "5"
     End Sub
 
-    Private Sub tbn6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn6.Click
+    Private Sub Tbn6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn6.Click
         txtDisplay.Text &= "6"
     End Sub
 
-    Private Sub tbn7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn7.Click
+    Private Sub Tbn7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn7.Click
         txtDisplay.Text &= "7"
     End Sub
 
-    Private Sub tbn8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn8.Click
+    Private Sub Tbn8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn8.Click
         txtDisplay.Text &= "8"
     End Sub
 
-    Private Sub tbn9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn9.Click
+    Private Sub Tbn9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn9.Click
         txtDisplay.Text &= "9"
     End Sub
 
-    Private Sub tbnPonto_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnPonto.Click
-        If Not txtDisplay.Text.Contains(".") Then
+    Private Sub TbnPonto_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnPonto.Click
+        If Not txtDisplay.Text.Contains("."c) Then
             txtDisplay.Text &= "."
         End If
     End Sub
 
-    Private Sub tbn0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn0.Click
+    Private Sub Tbn0_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbn0.Click
         txtDisplay.Text &= "0"
     End Sub
 
-    Private Sub tbnVirgula_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnVirgula.Click
-        If Not txtDisplay.Text.Contains(",") Then
+    Private Sub TbnVirgula_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnVirgula.Click
+        If Not txtDisplay.Text.Contains(","c) Then
             txtDisplay.Text &= ","
         End If
     End Sub
 
-    Private Sub tbnSomar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnSomar.Click
+    Private Sub TbnSomar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnSomar.Click
         If Double.TryParse(txtDisplay.Text, vPrimeiro) Then
             txtDisplay.Text = ""
             vSinal = "+"
         End If
     End Sub
 
-    Private Sub tbnSubstrair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnSubtrair.Click
+    Private Sub TbnSubstrair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnSubtrair.Click
         If Double.TryParse(txtDisplay.Text, vPrimeiro) Then
             txtDisplay.Text = ""
             vSinal = "-"
         End If
     End Sub
 
-    Private Sub tbnMultiplicar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnMultiplicar.Click
+    Private Sub TbnMultiplicar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnMultiplicar.Click
         If Double.TryParse(txtDisplay.Text, vPrimeiro) Then
             txtDisplay.Text = ""
             vSinal = "X"
         End If
     End Sub
 
-    Private Sub tbnDividir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnDividir.Click
+    Private Sub TbnDividir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnDividir.Click
         If Double.TryParse(txtDisplay.Text, vPrimeiro) Then
             txtDisplay.Text = ""
             vSinal = "/"
         End If
     End Sub
 
-    Private Sub tbnIgualdade_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnIgualdade.Click
+    Private Sub TbnIgualdade_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnIgualdade.Click
         Dim vSegundo As Double
         If Double.TryParse(txtDisplay.Text, vSegundo) Then
             Select Case vSinal
@@ -104,7 +104,7 @@
         End If
     End Sub
 
-    Private Sub tbnLimpar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnLimpar.Click
+    Private Sub TbnLimpar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnLimpar.Click
         txtDisplay.Text = ""
         vSinal = ""
         vPrimeiro = 0
@@ -129,7 +129,7 @@
         End Select
     End Sub
 
-    Private Sub txtDisplay_KeyPress(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtDisplay.KeyPress
+    Private Sub TxtDisplay_KeyPress(ByVal sender As Object, ByVal e As KeyPressEventArgs) Handles txtDisplay.KeyPress
         Dim charsPermitidos As String = "0123456789.,+-*/"
 
         If Not charsPermitidos.Contains(e.KeyChar) AndAlso e.KeyChar <> ChrW(Keys.Back) Then

@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {}
+    "C:\\Users\\felip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Documents\\calculadora-vbdotnet\\calculadora\\calculadora.vbproj",
+      "projectUniqueName": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\calculadora.vbproj",
       "projectName": "calculadora",
-      "projectPath": "C:\\Users\\dell\\Documents\\calculadora-vbdotnet\\calculadora\\calculadora.vbproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Documents\\calculadora-vbdotnet\\calculadora\\obj\\",
+      "projectPath": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\calculadora.vbproj",
+      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+      "outputPath": "E:\\pessoal\\projetos\\vb\\calculadora-vbdotnet\\calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
